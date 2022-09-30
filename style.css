@@ -53,10 +53,12 @@ img{
 
 .tabs__content{
   padding: 15px;
-  font-size: .9rem;
+  font-size: 18px;
   display: none;
   color:rgba(189, 199, 197, 0.855);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: 0;
+  margin-bottom: 0px;
 }
 .tabs__content h1{
   text-shadow: -1px 0 black, 0 1px black, 1.5px 0 black, 0 -1.5px black;
@@ -95,5 +97,11 @@ width: 100%;
 }
 
 .tabs__content > :first-child {
-  margin-top: 0;
+  margin-top: 0; 
+}
+.allCrests{
+  width: 60%;
+  height: auto;
+  border-radius: 4px;
+  filter: drop-shadow(0 -1mm 2mm rgb(168, 167, 169));
 }
