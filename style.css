@@ -1,3 +1,23 @@
+body {
+  background:  url(https://cdn.dribbble.com/users/398608/screenshots/3779506/media/16bc39dbda485286c822f07ed5add1a6.png?compress=1&resize=400x300&vertical=top);
+  background-color: #cccccc;
+  background-size: cover;
+ }
+img{
+  max-width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h1 h2 p{
+color:  #eeeeee
+}
+
 .tabs{
   border: 1px solid #cccccc;
   display: flex;
@@ -37,13 +57,34 @@
 
 .tabs__content{
   padding: 15px;
-  font-size: 0.8rem;
+  font-size: .9rem;
   display: none;
 }
 
 .tabs__content--active {
 display: block;
+color: solid black;
+width: 100%;
+}
 
+.Pic_Gry{
+  z-index: 4;
+}
+
+ #Gryffindor {
+  background:radial-gradient(circle, rgba(240, 189, 5, 0.5) 5%, transparent 90%) rgb(179, 15, 31);
+
+  
+}
+#Ravenclaw {
+  background:radial-gradient(circle, rgba(240, 126, 5, 0.5) 5%, transparent 90%) rgb(63, 81, 170);
+}
+
+#Huffelpuff{
+  background:radial-gradient(circle, rgba(237, 221, 5, 0.855) 5%, transparent 90%) rgb(146, 68, 0);
+}
+#Slytherin{
+  background:radial-gradient(circle, rgba(189, 199, 197, 0.855) 5%, transparent 90%) rgb(44, 126, 3);
 }
 
 .tabs__content > :first-child {
